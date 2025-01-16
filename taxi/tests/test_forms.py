@@ -7,7 +7,7 @@ class FormTest(TestCase):
     def test_driver_creation_form_with_license_is_valid(self):
         form_data = {
             "username": "test_driver",
-            "password": "test_password",
+            "password1": "test_password",
             "password2": "test_password",
             "first_name": "test first",
             "last_name": "test last",
